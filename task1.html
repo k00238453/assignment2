@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css">
+    <script type="text/javascript" src="js/myscripts.js"></script>
+
+<div class="header">
+    <h1>Assignment 2</h1>
+    <h3>Front-End Development | K00238453</h3>
+</div>
+
+<div class="nav">
+    <a href="task1.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="js/myscripts.js">myscripts.js</a>
+    <a href="css/mystyles.css">mystyles.css</a>
+</div>
+  
+<div class = container>
+<form action="confirmation.php" method="post">
+  <fieldset>
+    <legend>Register</legend>
+      <p>Personal Information</p>
+      <label for="uname">Username:</label>
+      <input type="text" placeholder="Enter Username" id="uname" name="uname" required><br><br>
+      <label for="fname">First name:</label>
+      <input type="text" placeholder="Enter First Name" id="fname" name="fname" required><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" placeholder="Enter Surname" name="lname" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="someone@example.com" id="email" name="email" required><br><br>
+      <label for="tname">Twitter username:</label>
+      <input type="text" placeholder="Enter Twitter Username" id="tname" name="tname" required><br><br>
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+      </select> <br><br>
+      <label for="age">Age:</label>
+      <select id="age" name="age">
+          <option value="1824">18-24</option>
+          <option value="2544">25-44</option>
+          <option value="45">45+</option>
+      </select> <br><br>
+      <label for="country">Country:</label>
+      <input type="text" placeholder="Enter your country of residence" id="country" name="country" required><br><br>
+      <label for="language">Language:</label>
+      <select id="lang" name="lang">
+          <option value="english">English</option>
+          <option value="german">German</option>
+          <option value="french">French</option>
+          <option value="spanish">Spanish</option>
+      </select> <br><br>
+      
+      <label for="favefood">Favourite food:</label>
+      <select id="favefood">
+            <option>Fish and Chips</option>
+            <option>Bangers and Mash</option>
+            <option>Sunday Roast</option>
+            <option>Shepherds Pie</option>
+
+            <option>Sauerbraten</option>
+            <option>Schweinshaxe</option>
+            <option>Rinderroulade</option>
+            <option>Bratwurst</option>
+
+            <option>Soupe à l'Oignon Gratinée</option>
+            <option>Croque-Monsieur</option>
+            <option>Quiche au Saumon et Crevettes</option>
+            <option>Mousse au Chocolat</option>
+
+            <option>Patatas Bravas</option>
+            <option>Paella</option>
+            <option>Gazpacho</option>
+            <option>Crema Catalana</option>
+      </select><br><br>
+      
+      <label for="bio">Bio:</label><br>
+      <textarea id="bio" rows="5" cols="50">
+      </textarea><br><br>
+      
+      <p>Credit card details</p>
+      <label for="cardname">Name on credit card:</label>
+      <input type="text" placeholder="Enter the name displayed on your credit card" id="cardname" name="cardname"><br><br>
+      <label for="cardnum"> Credit Card number:</label>
+      <input type="text" placeholder="1234-1234-1234-1234" id="cardnum" name="cardnum" maxlength="16"><br><br>
+      <label for="carddate">Expiry Date:</label>
+      <input type="date" id="carddate" name="carddate">
+      
+  <p>Postal Address</p>
+  <label for="line1">Line 1:</label>
+  <input type="text" placeholder="Enter the first line of your address" id="line1" name="paddress" required><br><br>
+  <label for="line2">Line 2:</label>
+  <input type="text" placeholder="Enter the second line of your address" id="line2" name="paddress"required><br><br>
+  <label for="postcode">Postcode:</label>
+  <input type="text" placeholder="Enter your postcode" id="postcode" name="paddress"required><br><br>
+  <label for="country">Country:</label>
+  <input type="text" placeholder="Enter your country of residence" id="country" name="paddress"required><br><br>
+
+  <p>Delivery Address</p>
+  <label for="line1.1">Line 1:</label>
+  <input type="text" placeholder="Enter the first line of your address" id="line1.1" name="daddress" required><br><br>
+  <label for="line2.1">Line 2:</label>
+  <input type="text" placeholder="Enter the second line fo your address"  id="line2.1" name="daddress" required><br><br>
+  <label for="postcode2">Postcode:</label>
+  <input type="text" placeholder="Enter your postcode" id="postcode2" name="daddress" required><br><br>
+  <label for="country2">Country:</label>
+  <input type="text" placeholder="Enter your country of residence"  id="country2" name="daddress" required><br><br>
+  
+  </fieldset>
+</form> 
+</div>
+    
+<button type="submit" class="register"><a id="link" href="http://localhost/Melanie/confirmation.php">Register</a></button>
+    
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+
+</body>
+</html>

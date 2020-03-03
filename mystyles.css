@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #A8FDF5;
+}
+
+.nav {
+    padding: 10px;
+    background-color: #527D79;
+}
+
+.nav a {
+    color: white;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: rgb(113, 150, 146);
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #A8FDF5;
+}
+
+p{
+    font-weight: 600;
+}
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solic #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solic #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solic #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.register {
+    background-color: #527D79;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px 600px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    font-size: large;
+}
+
+.register:hover {
+    opacity: 1;
+}
+
+.container {
+    margin: 10px 200px;;
+}
